@@ -7,7 +7,7 @@
 
 .contact-form form {
     position: absolute;
-    width:35vw;
+    width:40vw;
     left: 0;
     top: 0;
 }
@@ -144,9 +144,37 @@
 
 }
 
+#linkedin-github-div #icon{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#linkedin-github-div #icon:hover{
+  cursor: pointer;
+  color:rgb(138, 172, 185);
+}
+
+#contact-form-submit-btn:hover{
+    cursor: pointer;
+    background-color: #89a7b6;
+    color:white;
+}
+
+.email-phone-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.email-phone-div>*{
+    margin:0;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 1200px) {
     .contact-page {
         position: relative;
+        width: fit-content;
 
     }
 

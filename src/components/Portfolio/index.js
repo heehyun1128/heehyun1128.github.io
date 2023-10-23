@@ -128,13 +128,14 @@ const Portfolio = () => {
                         <div id='img-div'><img src={MeetFriends} alt="" /></div>
                     </div>
                 </div> */}
-                <div id="portfolio-container">
+                <div id="portfolio-container" className="animate__fadeInUp">
                     <div class="card">
                         <img src={Moment} alt="" />
                         <div className="content">
 
                             <h1>01</h1>
                             <h2>MOMENT</h2>
+                            <p className='tool'>ReactJS, Redux, Flask, SQLAlchemy, CSS3, AWS</p>
                             <h3>Online social networking website enabling users to generate posts, engage in discussions, and create connections.</h3>
                             <div id='link-div'>
                                 <p onClick={handleViewMomentRender}>Live</p>
@@ -151,6 +152,7 @@ const Portfolio = () => {
 
                             <h1>02</h1>
                             <h2>PETSY</h2>
+                            <p className='tool'>ReactJS, Redux, Flask, SQLAlchemy, CSS3</p>
                             <h3>An online retail platform specializing in the sale of pet-related products. </h3>
                             <div id='link-div'>
                                 <p onClick={handleViewPetsyRender}>Live</p>
@@ -166,6 +168,7 @@ const Portfolio = () => {
 
                             <h1>03</h1>
                             <h2>MEETFRIENDS</h2>
+                            <p className='tool'>ReactJS, Redux, ExpressJS, Sequelize, CSS3</p>
                             <h3>A MeetUp-inspired event organization platform for organizing events for people of similar interests </h3>
                             <div id='link-div'>
                                 <p onClick={handleViewMeetFriendsRender}>Live</p>

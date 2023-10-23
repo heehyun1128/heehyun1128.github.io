@@ -15,6 +15,9 @@ import {
     faPalette,
     faBars,
     faClose,
+    faNoteSticky,
+    faAddressBook,
+    faBook,
 } from '@fortawesome/free-solid-svg-icons'
 
 import { useState } from 'react'
@@ -59,6 +62,15 @@ const Sidebar = () => {
             </NavLink>
             <NavLink
                 onClick={() => setShowNav(false)}
+                activeclassname="active"
+                className="resume-link"
+                to="/resume"
+
+            >
+                <FontAwesomeIcon icon={faBook} color="#4d4d4e" />
+            </NavLink>
+            <NavLink
+                onClick={() => setShowNav(false)}
                 exact="true"
                 activeclassname="active"
                 className="contact-link"
@@ -73,7 +85,7 @@ const Sidebar = () => {
                 className='close-icon' />
 
         </nav>
-        <ul>
+        {/* <ul>
             <li>
                 <a target="_blank" rel="nonreferrer" href="https://www.linkedin.com/in/yi-c-452811132/">
                     <FontAwesomeIcon icon={faLinkedin} color="black" />
@@ -82,7 +94,7 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faGithub} color="black" />
                 </a>
             </li>
-        </ul>
+        </ul> */}
         <FontAwesomeIcon
             onClick={() => {
                 console.log('clicked')

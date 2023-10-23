@@ -1,0 +1,60 @@
+#resume-main img{
+  height:90vh;
+
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+#resume-main .animate__fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+animation-duration: 2s;
+}
+
+#resume-main  {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left:20vw;
+}
+
+.resume-text-zone h1 {
+  color: rgb(138, 152, 163);
+  font-size: 56px;
+  line-height: 53px;
+  margin: 0;
+  font-family: 'Coolvetica';
+  font-weight: 400;
+  margin-right:10vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #resume-main{
+    flex-direction: column;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+  }
+  #resume-main h1{
+   margin-bottom: 20px;
+  }
+  #resume-main img{
+  min-width: 80vw;
+  height: auto;
+  }
+}
