@@ -39,7 +39,7 @@ const About = ()=>{
                 </div> */}
                 <div>
                         <h1>
-                            <AnimatedLetters letterClass={letterClass} strArray={['E', 'd', 'u', 'c', 'a', 't', 'i', 'o', 'n']} index={20} />
+                            <AnimatedLetters letterClass={letterClass} strArray={['E', 'D', 'U', 'C', 'A', 'T', 'I', 'O', 'N']} index={20} />
                         </h1>
                         <p><FontAwesomeIcon icon={faGraduationCap} /> App Academy - Full Stack Software Engineering 05/2023-11/2023</p>
                         <p><FontAwesomeIcon icon={faGraduationCap} /> MBA --- California Institute of Adavanced Management 05/2020-05/2022</p>
@@ -48,7 +48,7 @@ const About = ()=>{
                 </div>
                 <div>
                         <h1>
-                            <AnimatedLetters letterClass={letterClass} strArray={['W', 'o', 'r', 'k', ' ', 'E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e']} index={20} />
+                            <AnimatedLetters letterClass={letterClass} strArray={['W', 'O', 'R', 'K', ' ', 'E', 'X', 'P', 'E', 'R', 'I', 'E', 'N', 'C', 'E']} index={20} />
                         </h1>
                         <p><FontAwesomeIcon icon={faBriefcase} /> Project Engineer --- Innovative Project Solutions 03/2021-11/2021</p>
                         <p><FontAwesomeIcon icon={faBriefcase} /> Project Engineer --- Giampolini & Co 10/2017-12/2020</p>

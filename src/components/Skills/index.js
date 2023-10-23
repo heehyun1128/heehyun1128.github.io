@@ -25,7 +25,7 @@ const Skills = ()=>{
             <div className='container skill-page'>
             <div className='text-zone'>
                 <h1>
-                    <AnimatedLetters letterClass={letterClass} strArray={['S','k','i','l','l','s', ]} index={20} />
+                    <AnimatedLetters letterClass={letterClass} strArray={['S','K','I','L','L','S', ]} index={20} />
                 </h1>
                     
                 {/* <h1>

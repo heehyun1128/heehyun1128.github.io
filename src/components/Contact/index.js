@@ -36,7 +36,7 @@ const Contact = () => {
         <div className='container contact-page'>
             <div className='text-zone'>
                 <h1>
-                    <AnimatedLetters letterClass={letterClass} strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+                    <AnimatedLetters letterClass={letterClass} strArray={['C', 'O', 'N', 'T', 'A', 'C', 'T', ' ', 'M', 'E']}
                         idx={15} />
                 </h1>
                 <div className='contact-form'>
