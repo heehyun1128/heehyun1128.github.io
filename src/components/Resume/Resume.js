@@ -14,9 +14,15 @@ const Resume = () => {
     }, 3000)
   }, [])
 
-  const ViewResumePDF = (e)=>{
+  const ViewResumePDF = (e) => {
     e.preventDefault()
   }
+
+  const handleDownload = () => {
+    const resume = process.env.PUBLIC_URL + '/resume.pdf'
+    window.open(resume, '_blank')
+  }
+
   return (
     <div id='resume-main'>
       <div class='resume-text-zone'>
@@ -25,6 +31,7 @@ const Resume = () => {
             idx={15} />
         </h1>
         {/* <div onClick={ViewResumePDF}>View PDF</div> */}
+      <button onClick={handleDownload}>DOWNLOAD RESUME</button>
       </div>
       <div><img className='animate__fadeInRight' src={ResumeImg} alt="" /></div>
     </div>
