@@ -8,7 +8,6 @@ import { db } from '../../firebase';
 import Moment from '../../assets/images/Moment.png'
 import Petsy from '../../assets/images/Petsy.png'
 import MeetFriends from '../../assets/images/MeetFriends.png'
-import Ychen from '../../assets/images/ychen.png'
 
 
 const Portfolio = () => {
@@ -76,10 +75,6 @@ const Portfolio = () => {
         e.preventDefault()
         window.open('https://meetup-backend-witc.onrender.com')
     }
-    const handleViewYchenRender = e => {
-        e.preventDefault()
-        window.open('https://unusual-eel-clothes.cyclic.app/')
-    }
     const handleViewMomentGithub = e => {
         e.preventDefault()
         window.open('https://github.com/heehyun1128/yc-Moment')
@@ -91,10 +86,6 @@ const Portfolio = () => {
     const handleViewMeetFriendsGithub = e => {
         e.preventDefault()
         window.open('https://github.com/heehyun1128/API-project')
-    }
-    const handleViewYchenGithub = e => {
-        e.preventDefault()
-        window.open('https://github.com/heehyun1128/shopping-site-project')
     }
 
     return (
@@ -172,26 +163,10 @@ const Portfolio = () => {
                     </div>
 
                     <div class="card">
-                        <img src={Ychen} alt="" />
-                        <div className="content">
-
-                            <h1>03</h1>
-                            <h2>Y.CHEN DESIGN</h2>
-                            <p className='tool'>HTML5, CSS3, JavaScript DOM</p>
-                            <h3>An e-commerce platform dedicated to the sale of designer fashion products. </h3>
-                            <div id='link-div'>
-                                <p onClick={handleViewYchenRender}>Live</p>
-                                <p onClick={handleViewYchenGithub}>Github</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="card">
                         <img src={MeetFriends} alt="" />
                         <div className="content">
 
-                            <h1>04</h1>
+                            <h1>03</h1>
                             <h2>MEETFRIENDS</h2>
                             <p className='tool'>ReactJS, Redux, ExpressJS, Sequelize, CSS3</p>
                             <h3>A MeetUp-inspired event organization platform for organizing events for people of similar interests </h3>
