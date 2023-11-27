@@ -31,7 +31,7 @@ const Resume = () => {
             idx={15} />
         </h1>
         {/* <div onClick={ViewResumePDF}>View PDF</div> */}
-      <button onClick={handleDownload}>DOWNLOAD RESUME</button>
+      <button onClick={handleDownload}>DOWNLOAD FULL RESUME</button>
       </div>
       <div><img className='animate__fadeInRight' src={ResumeImg} alt="" /></div>
     </div>
