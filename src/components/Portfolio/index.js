@@ -74,7 +74,7 @@ const Portfolio = () => {
     }
     const handleViewMeetFriendsRender = e => {
         e.preventDefault()
-        window.open('https://meetup-backend-witc.onrender.com')
+        window.open('https://meetup-clone-40bc08cdb811.herokuapp.com/')
     }
     const handleViewYchenRender = e => {
         e.preventDefault()
