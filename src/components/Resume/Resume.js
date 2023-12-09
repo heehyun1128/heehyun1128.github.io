@@ -15,7 +15,7 @@ const Resume = () => {
   }, [])
 
   const ViewResumePDF = (e) => {
-    e.preventDefault()
+    e.preventDefault() 
   }
 
   const handleDownload = () => {
