@@ -171,49 +171,10 @@ const Skills = ()=>{
                             </div>
                         </div>
                     </div>
-                    {/* <div id='pm-main'>
-                        <h4>PROJECT MANAGEMENT</h4>
-                        <div id="pm-div">
-                            <div>
-
-                                <img
-                                    src="https://images.credly.com/size/680x680/images/260e36dc-d100-45c3-852f-9d8063fa71e6/pmp-600px.png"
-                                    alt="" />
-                                <p>PMP</p>
-                            </div>
-                            <div>
-                                <i class="devicon-jira-plain colored"></i>
-                                <p>JIRA</p>
-                            </div>
-                            <div>
-                                <img src={Excel} alt="" />
-                                <p>EXCEL VBA</p>
-                            </div>
-                            <div>
-                                <img src={MSProject} alt="" />
-                                <p>MS PROJECT</p>
-                            </div>
-                        </div>
-                    </div> */}
+                    
                 </div>
 
-            {/* <div className='skill-div'>
-                <h1>
-                    <AnimatedLetters letterClass={letterClass} strArray={['H','o','n','o','r','s', '&','A','w','a','r','d','s']} index={20} />
-                </h1>
-                <div><p><FontAwesomeIcon icon={faAward} /> Berkeley CEE Department Scholarship   08/2016</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> School’s Honor Student   01/2015</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> Second Class School Scholarship   01/2015</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> Provincial Honor Student with Excellent Performance   06/2014</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> First Class School Scholarship   01/2014</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> School’s Honor Student   01/2014</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> Third Class Award of National English Competition for College Students (NECCS)    01/2014</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> School’s Honor Student   06/2013</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> Second Class School Scholarship   06/2013</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> Excellent Prize in School's Singing Contest (Water Resources Engineering Department)   01/2012</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> School’s Excellent Student   01/2012</p></div>
-                <div><p><FontAwesomeIcon icon={faAward} /> Third Class School Scholarship    01/2012</p></div>
-            </div> */}
+            
         </div>
         <Loader type="ball-beat" />
         </>
