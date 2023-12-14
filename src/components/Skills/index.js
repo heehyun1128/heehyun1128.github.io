@@ -41,7 +41,7 @@ const Skills = ()=>{
                     <div id="programming-div">
                         {/* <h4>PROGRAMMING & DESIGN</h4> */}
                         <div id="icon-div">
-                            <div>
+                            <div> 
                                 <i class="devicon-javascript-plain colored"></i>
                                 <p>JAVASCRIPT ES6+</p>
                             </div>
