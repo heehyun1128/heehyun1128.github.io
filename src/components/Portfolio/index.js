@@ -78,7 +78,7 @@ const Portfolio = () => {
     }
     const handleViewYchenRender = e => {
         e.preventDefault()
-        window.open('https://unusual-eel-clothes.cyclic.app/')
+        window.open('https://ychendesign-2b257cc3348d.herokuapp.com/')
     }
     const handleViewMomentGithub = e => {
         e.preventDefault()
