@@ -9,6 +9,9 @@ import Excel from '../../assets/images/excel.png'
 import MSProject from '../../assets/images/msproject.png'
 import VB from '../../assets/images/visual_basic.png'
 import Axios from '../../assets/images/axios.png'
+import Stripe from '../../assets/images/stripe.png'
+import Django from '../../assets/images/django.png'
+import Prisma from '../../assets/images/prisma.svg'
 
 
 const Skills = ()=>{
@@ -50,8 +53,20 @@ const Skills = ()=>{
                                 <p>PYTHON</p>
                             </div>
                             <div>
+                                <i class="devicon-java-plain colored"></i>
+                                <p>JAVA</p>
+                            </div>
+                            <div>
                                 <i class="devicon-react-original colored"></i>
                                 <p>REACT</p>
+                            </div>
+                            <div>
+                                <i class="devicon-nextjs-original colored"></i>
+                                <p>NEXT.JS</p>
+                            </div>
+                            <div>
+                                <i class="devicon-typescript-original colored"></i>
+                                <p>TYPESCRIPT</p>
                             </div>
                             <div>
                                 <i class="devicon-redux-original colored"></i>
@@ -74,6 +89,10 @@ const Skills = ()=>{
                                 <p>FLASK</p>
                             </div>
                             <div>
+                            <img id='prisma' src={Django} alt="" />
+                                <p>DJANGO</p>
+                            </div>
+                            <div>
                                 <i class="devicon-sqlalchemy-plain colored"></i>
                                 <p>SQLALCHEMY</p>
                             </div>
@@ -84,6 +103,10 @@ const Skills = ()=>{
                             <div>
                                 <i class="devicon-css3-plain colored"></i>
                                 <p>CSS 3</p>
+                            </div>
+                            <div>
+                                <i class="devicon-tailwindcss-plain colored"></i>
+                                <p>TAILWIND CSS</p>
                             </div>
                             <div>
                                 <i class="devicon-bootstrap-plain colored"></i>
@@ -122,6 +145,18 @@ const Skills = ()=>{
                                 <p>AWS</p>
                             </div>
                             <div>
+                                <i class="devicon-docker-plain colored"></i>
+                                <p>DOCKER</p>
+                            </div>
+                            <div>
+                            <img id='prisma' src={Prisma} alt="" />
+                                <p>PRISMA</p>
+                            </div>
+                            <div>
+                            <img id='stripe' src={Stripe} alt="" />
+                                <p>STRIPE</p>
+                            </div>
+                            <div>
                                 <i class="devicon-npm-original-wordmark colored"></i>
                                 <p>NPM</p>
                             </div>
@@ -146,6 +181,7 @@ const Skills = ()=>{
                                 <img src={Axios} alt="" />
                                 <p>AXIOS</p>
                             </div>
+                           
                             <div>
                                 <img
                                     src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png"
@@ -160,6 +196,10 @@ const Skills = ()=>{
                             <div>
                                 <img src={VB} alt="" />
                                 <p>VISUAL BASICS</p>
+                            </div>
+                            <div>
+                            <i class="devicon-cplusplus-plain colored"></i>
+                                <p>C++</p>
                             </div>
                             <div>
                                 <img src={Excel} alt="" />
