@@ -8,7 +8,7 @@ import {
   faPython,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
-import { faGraduationCap, faBriefcase, faCode } from '@fortawesome/free-solid-svg-icons' 
+import { faGraduationCap, faBriefcase, faCode, faAward } from '@fortawesome/free-solid-svg-icons' 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -39,12 +39,20 @@ const About = ()=>{
                 </div> */}
                 <div>
                         <h1>
-                            <AnimatedLetters letterClass={letterClass} strArray={['E', 'D', 'U', 'C', 'A', 'T', 'I', 'O', 'N']} index={20} />
+                            <AnimatedLetters letterClass={letterClass} strArray={['E', 'D', 'U', 'C', 'A', 'T', 'I', 'O', 'N', ' ','&',' ', 'H', 'O', 'N', 'O', 'R', 'S']} index={20} />
                         </h1>
-                        <p><FontAwesomeIcon icon={faGraduationCap} /> App Academy - Full Stack Software Engineering 05/2023-11/2023</p>
-                        <p><FontAwesomeIcon icon={faGraduationCap} /> MBA --- California Institute of Adavanced Management 05/2020-05/2022</p>
-                        <p><FontAwesomeIcon icon={faGraduationCap} /> M.S. Civil Engineering --- University of California, Berkeley 08/2016-05/2017</p>
-                        <p><FontAwesomeIcon icon={faGraduationCap} /> B.E. Civil - Water Resources Engineering --- Zhengzhou University 08/2011-06/2015</p>
+                        <h2><FontAwesomeIcon icon={faGraduationCap} /> App Academy - Full Stack Software Engineering 05/2023-10/2023</h2>
+                        <h2><FontAwesomeIcon icon={faGraduationCap} /> MBA --- California Institute of Adavanced Management 05/2020-04/2022</h2>
+                        <p><FontAwesomeIcon icon={faAward}/> Dean's List --- Spring 2022, Spring/ Summer/ Fall 2021</p>
+                        <h2><FontAwesomeIcon icon={faGraduationCap} /> M.S. Civil Engineering --- University of California, Berkeley 08/2016-05/2017</h2>
+                        <p><FontAwesomeIcon icon={faAward}/> Berkeley CEE Department Scholarship 08/2016</p>
+                        <h2><FontAwesomeIcon icon={faGraduationCap} /> B.E. Civil - Water Resources Engineering --- Zhengzhou University 08/2011-06/2015</h2>
+                        <p><FontAwesomeIcon icon={faAward}/>  First Class School Scholarship 01/2014</p>
+                        <p><FontAwesomeIcon icon={faAward}/> Provincial Honor Student with Excellent Performance 06/2014</p>
+                        <p><FontAwesomeIcon icon={faAward}/> School’s Honor Student 01/2015, 01/2014, 01/2013</p>
+                        <p><FontAwesomeIcon icon={faAward}/> Second Class School Scholarship 01/2015, 01/2013</p>
+                        <p><FontAwesomeIcon icon={faAward}/> Third Class Award of National English Competition for College Students (NECCS) 01/2014</p>
+                        <p><FontAwesomeIcon icon={faAward}/> Third Class School Scholarship 01/2012</p>
                 </div>
                 <div>
                         <h1>
